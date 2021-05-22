@@ -4,8 +4,7 @@
 
 .tab li .tab1{
 	display: block;
-	background:#d0bccc;
-  opacity: 0.8;
+	background:rgba(208, 188, 204, 0.45);
 	margin:0 2px;
 	padding:10px 20px;
 }
