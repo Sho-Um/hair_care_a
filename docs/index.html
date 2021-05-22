@@ -188,6 +188,19 @@
 <script src="./js/tab1.js"></script>
 <script src="./js/tab2.js"></script>
 <script src="./js/tab3.js"></script>
+<script src="https://app2.blob.core.windows.net/botchan/js/efoapp.js" onload="efoInit('60a8bb79a24a6104a77b4141', null, null, null, 2)"></script>
+<script src="https://app2.blob.core.windows.net/botchan/js/efoapp.js"></script>
+<script>efoInit('60a8bb79a24a6104a77b4141', null, null, null, 2)</script>
+<script>
+	(function() {
+			var efo = document.createElement('script'); efo.type = 'text/javascript'; efo.async = true;
+			efo.src = 'https://app2.blob.core.windows.net/botchan/js/efoapp.js';
+			efo.setAttribute('data-disconnect-url', '');
+			efo.setAttribute('data-disconnect-param', '');
+			efo.onload = function () {efoInit("60a8bb79a24a6104a77b4141", null, null, null, 2); };
+			var sc = document.getElementsByTagName('script')[0]; sc.parentNode.insertBefore(efo, sc);
+	})();
+</script>
 
 </body>
 </html>
